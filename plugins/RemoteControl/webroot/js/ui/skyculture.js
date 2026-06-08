@@ -1529,7 +1529,9 @@ define(["jquery", "api/properties", "api/remotecontrol", "ui/stellarium-utils"],
 						}
 						
 						if (!found) clearAllActiveButtons();
+
 				});
+			});				
     
 				// ============================================================
 				// LISTEN TO CULTURE CHANGES FROM SERVER (NEW)
