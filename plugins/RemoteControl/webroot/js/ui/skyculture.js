@@ -1166,7 +1166,7 @@ define(["jquery", "api/properties", "api/remotecontrol", "ui/stellarium-utils"],
                 renderZodiacPanel(zodiac);
                 renderLunarPanel(lunar);
                 renderStarsPanel(stars);
-								
+                
                 console.log("[SkyCulture] All panels rendered for culture:", currentCultureId);
                 if (callback) callback(true);
             },
@@ -1529,7 +1529,7 @@ define(["jquery", "api/properties", "api/remotecontrol", "ui/stellarium-utils"],
 						}
 						
 						if (!found) clearAllActiveButtons();
-				});				
+				});
     
 				// ============================================================
 				// LISTEN TO CULTURE CHANGES FROM SERVER (NEW)
